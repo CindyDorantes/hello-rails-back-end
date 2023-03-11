@@ -1,0 +1,2 @@
+rails g scaffold greetings text:string -c=scaffold_controller
+rails g scaffold_controller api/v1/greetings text:string --api --model-name=Greeting
